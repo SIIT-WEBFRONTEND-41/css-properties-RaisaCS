@@ -1,0 +1,80 @@
+
+p { 
+    line-height: 1;
+
+}
+.break-point::before {
+    content: "\a";
+    font-size: 1rem;
+    display: block;
+    line-height: 1;
+}
+.teal{
+    color: #20c997;
+}
+.intro-chunk {
+    max-width: 500px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    
+}
+.intro-chunk p {
+    margin-bottom: 0;
+    font-size: 1,5rem;
+
+}
+.intro-chunk strong {
+    font-weight: 900;
+    color: hsl(160deg, 100%, 30%);
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: hsl(0deg, 0%, 60%);
+    border-top: 9px solid hsl(0, 1%, 78%);
+    margin-left: 50px;
+    margin-right: 250px;
+}
+main p {
+    font-size: 1,20rem;
+    max-height: calc(10px*6);
+}
+.title {
+    font-size: 2rem;
+    margin: -90px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    color: hsl(0deg, 0%, 0%);
+}
+.max-width-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 32px;
+}
+.infonote {
+    background: hsl(0deg, 0%, 100%);
+    padding: 32px;
+    margin: 0 -32px;
+    margin-right: 100px;
+    margin-left: 90px;
+    border-bottom: 8px solid hsl(0, 1%, 78%);
+}
+.infonote *:last-child {
+    margin-bottom: 0;
+}
+.indented-heading {
+    margin: 0;
+    margin-top: -24px;
+    margin-left: -40px;
+    margin-bottom: 24px;
+    border-bottom: 70px hsl(45, 91%, 66%);
+    padding: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    background: hsl(45deg, 100%, 50%);
+    color: hsl(0deg, 0%, 0%);
+    width: fit-content;
+    font-size: 1.5rem;
+    border-bottom: 8px;
+}
